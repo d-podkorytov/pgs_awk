@@ -14,6 +14,10 @@
 - Docs: https://github.com/cosmos72/gomacro/tree/master/doc
 - Examples: https://github.com/cosmos72/gomacro/tree/master/_example
 
+## Compilation
+> go build pgs_maps.go
+> go build pgs_folds.go
+
 ## pgs_maps 
 
 *pgs_maps* read lines from stdin and apply gomacro function for every line,so it looks like programming with awk but with power of Golang scripting

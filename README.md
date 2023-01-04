@@ -7,7 +7,7 @@
 
 ## pgs_maps 
 
-pgs_map read lines from stdin and apply gomacro function for every line,so it looks like programming with awk but with power of Golang scripting
+*pgs_maps* read lines from stdin and apply gomacro function for every line,so it looks like programming with awk but with power of Golang scripting
 
 Mapping function may be arbitrary but input and output is strings.  
 
@@ -31,7 +31,7 @@ Example of file strings.gmacro:
 
 ## pgs_folds
 
-pgs_map also read lines from stdin and apply gomacro function for every line with accumulator, like fold in FP languages
+*pgs_folds* also read lines from stdin and apply gomacro function for every line with accumulator, like fold in FP languages
 
 Folding function may be arbitrary but input and output is strings
 

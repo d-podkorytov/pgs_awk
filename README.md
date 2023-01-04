@@ -6,6 +6,7 @@
 - As crossplatform tool for pipes datastream processing in Linux/Windows/Unix 
 
 ## Requirements
+- OS Linux/Windows and probably FreeBSD and MacOS
 - Golang v1.19
 - Gomacro from "https://github.com/cosmos72/gomacro"
 
@@ -19,8 +20,8 @@
 
 Mapping function may be arbitrary but input and output is strings.  
 
-Example of file strings.gmacro: 
- func call(inp string) string {return inp+inp}
+Example of file *strings.gmacro*: 
+> func call(inp string) string {return inp+inp}
 
 > pgs_map.exe -code strings.gmacro -tracing  < input_file
 >
@@ -43,12 +44,12 @@ Example of file strings.gmacro:
 
 Folding function may be arbitrary but input and output is strings
 
-Example for fold transformation (inside file strings_fold.gmacro):
- func call(inp string, acc string) string {return acc+inp}
+Example for fold transformation (inside file *strings_fold.gmacro*):
+> func call(inp string, acc string) string {return acc+inp}
 
 > pgs_folds.exe -code strings_fold.gmacro -tracing < input_file
-> 
-> Output:
+ 
+ Output:
 -  C:\go.w\FastHTTPD_GET_NATS\NATS_Pipes\pgs_awk>pgs_folds.exe -code strings_fold.gmacro -tracing  <1 
 -  111211121112311121112111231112111211123a111211121112311121112111231112111211123a111211121112311121112111231112111211123ab
 

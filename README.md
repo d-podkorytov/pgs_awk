@@ -1,9 +1,9 @@
 # OS pipes processing with MAP/FOLD by Gomacro and Golang
 ## Why
-- For replacement awk in my every day data processing;
-- For learning Gomacro scripting
+- For replacement pure portable awk in my every day data processing;
+- For learning Gomacro scripting and using it in future projects
 - For next using in my distribute system over NATS messaging
-- As crossplatform tool for pipes datastream processing in Linux/Windows/Unix 
+- As crossplatform tool for pipes datastream processing in Linux/Windows/Unix/MacOS
 
 ## Requirements
 - OS Linux/Windows and probably FreeBSD and MacOS

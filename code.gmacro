@@ -1,0 +1,1 @@
+func call(inp int) int {return inp+inp}

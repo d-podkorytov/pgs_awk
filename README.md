@@ -1,4 +1,8 @@
 # OS pipes processing with MAP/FOLD by Gomacro and Golang
+## Why
+- For replacement awk in my every day data processing;
+- For learning Gomacro
+- For next using in my distribute system over NATS messaging 
 
 ## pgs_maps 
 

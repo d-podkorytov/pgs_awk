@@ -5,6 +5,14 @@
 - For next using in my distribute system over NATS messaging
 - As crossplatform tool for pipes datastream processing in Linux/Windows/Unix 
 
+## Requirements
+- Golang v1.19
+- Gomacro from "https://github.com/cosmos72/gomacro"
+
+## For more about Gomacro see 
+- Docs: https://github.com/cosmos72/gomacro/tree/master/doc
+- Examples: https://github.com/cosmos72/gomacro/tree/master/_example
+
 ## pgs_maps 
 
 *pgs_maps* read lines from stdin and apply gomacro function for every line,so it looks like programming with awk but with power of Golang scripting

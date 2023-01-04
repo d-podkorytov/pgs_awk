@@ -16,6 +16,7 @@
 
 ## Compilation
 > go build pgs_maps.go
+
 > go build pgs_folds.go
 
 ## pgs_maps 

@@ -63,3 +63,6 @@ Example for fold transformation (inside file *strings_fold.gmacro*):
 
 >  111211121112311121112111231112111211123a111211121112311121112111231112111211123a111211121112311121112111231112111211123ab
 
+## More examples
+
+See *ls2hmtl.sh* and *ls2html.gomacro* files as an example for convertation directory to HTML text

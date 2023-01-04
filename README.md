@@ -1,6 +1,6 @@
 # OS pipes processing with MAP/FOLD by Gomacro and Golang
 
-## pgs_map 
+## pgs_maps 
 
 pgs_map read lines from stdin and apply gomacro function for every line,so it looks like programming with awk but with power of Golang scripting
 
@@ -12,7 +12,7 @@ Example of file strings.gmacro:
 > pgs_map.exe -code strings.gmacro -tracing  < input_file
 >
 > Output:
--  C:\go.w\FastHTTPD_GET_NATS\NATS_Pipes\pgs_awk>pgs_map.exe -code strings.gmacro -tracing < file
+-  C:\go.w\FastHTTPD_GET_NATS\NATS_Pipes\pgs_awk>pgs_maps.exe -code strings.gmacro -tracing < file
 - 2023/01/03 18:58:07 Code file:"strings.gmacro" args=[] mask="%#v" 
 - 2023/01/03 18:58:07 Code:func call(inp string) string {return inp+inp}
 - 2023/01/03 18:58:07 '1'[0] -> "11"
@@ -33,9 +33,9 @@ Folding function may be arbitrary but input and output is strings
 Example for fold transformation (inside file strings_fold.gmacro):
  func call(inp string, acc string) string {return acc+inp}
 
-### pgs_folds.exe -code strings_fold.gmacro -tracing < input_file
-### 
-### Output:
-###  C:\go.w\FastHTTPD_GET_NATS\NATS_Pipes\pgs_awk>pgs_folds.exe -code strings_fold.gmacro -tracing  0<1 
-###  111211121112311121112111231112111211123a111211121112311121112111231112111211123a111211121112311121112111231112111211123ab
+> pgs_folds.exe -code strings_fold.gmacro -tracing < input_file
+> 
+> Output:
+-  C:\go.w\FastHTTPD_GET_NATS\NATS_Pipes\pgs_awk>pgs_folds.exe -code strings_fold.gmacro -tracing  <1 
+-  111211121112311121112111231112111211123a111211121112311121112111231112111211123a111211121112311121112111231112111211123ab
 

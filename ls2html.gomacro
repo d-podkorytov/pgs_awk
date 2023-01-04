@@ -1,0 +1,1 @@
+func call(inp string) string {return "<a href='"+inp+"'>"+ inp+ "</a>\n" }

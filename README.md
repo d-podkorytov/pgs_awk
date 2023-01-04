@@ -1,6 +1,6 @@
 # OS pipes processing with MAP/FOLD by Gomacro and Golang
 
-##pgs_map 
+## pgs_map 
 
 pgs_map read lines from stdin and apply gomacro function for every line, like awk but with power of Golang
 
@@ -24,7 +24,7 @@ Output:
 2023/01/03 18:58:07 'b'[0] -> "bb"
 "bb" 
 
-##pgs_folds
+## pgs_folds
 
 pgs_map also read lines from stdin and apply gomacro function for every line with accumulator, like fold in FP languages
 
